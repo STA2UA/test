@@ -12,6 +12,6 @@
 		file_put_contents($controll_file, $value);
 		echo $order;
 	}
-
+	echo "aaa";
 
 ?>
