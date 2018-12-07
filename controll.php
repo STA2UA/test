@@ -1,4 +1,6 @@
 <?php
+header("Access-Control-Allow-Origin: *");
+
 	$order = $_GET["order"];
 	$value = $_GET["value"];
 	$controll_file = 'order.txt';
